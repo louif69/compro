@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Introduction from "@/components/Introduction";
 import { getEntries } from "@/libs/contentful";
 import ReviewCards from "@/components/ReviewCards";
+import HeaderForReviewCards from "@/components/HeaderForReviewCards";
 
 export default async function Home() {
   const blogs = await getEntries();
@@ -16,6 +17,7 @@ export default async function Home() {
         <Hero />
         <CompanyGrid />
         <Introduction />
+        <HeaderForReviewCards/>
         <SimpleGrid 
           columns={{ base: 1, md: 2, lg: 3 }} 
           spacing={{ base: 5, md: 10 }} 
