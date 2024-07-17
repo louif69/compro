@@ -1,3 +1,4 @@
+import SectionAbout from "@/components/SectionAbout";
 import { Box, Flex, Text, Container } from "@chakra-ui/react";
 
 export const metadata = {
@@ -8,11 +9,11 @@ export const metadata = {
 
 const Page = () => {
   return (
-    <Box pt="75px" bgColor="#fef5ee" w="100%" minH="100vh">
+    <Box pt="100px" bgColor="#fef5ee" w="100%" minH="100vh">
       <Container maxW="7xl">
         <Flex
           gap={{ base: 5, md: 10 }}
-          h={{ base: "auto", md: "100vh" }}
+          h={{ base: "auto", md: "auto" }}
           maxW="6xl"
           justify="center"
           align="center"
@@ -61,6 +62,7 @@ const Page = () => {
             </Text>
           </Flex>
         </Flex>
+        <SectionAbout/>
       </Container>
     </Box>
   );

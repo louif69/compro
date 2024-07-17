@@ -1,3 +1,4 @@
+import BookingButton from "@/components/BookingButton";
 import FacilityAccordion from "@/components/FacilityAccordion";
 import { Box, Flex, Text, Container, Image } from "@chakra-ui/react";
 
@@ -54,6 +55,7 @@ const Page = () => {
             <FacilityAccordion />
           </Box>
         </Flex>
+        <BookingButton/>
       </Container>
     </Box>
   );
