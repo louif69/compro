@@ -31,6 +31,7 @@ const ReviewCards: FC<BlogProps> = ({ author, description }) => {
           borderRadius="50%"
           mx="auto"
           mb={4}
+          alt="Anonymous profile picture"
         />
         <Text color="#1521a4" fontWeight="semibold" mb={2}>
           {author}

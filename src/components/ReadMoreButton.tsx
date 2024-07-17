@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ReadMoreButton = () => {
   return (
-    <Link href="/service">
+    <Link href="/service" aria-label="Read more about our services">
       <Button
         color="#1521a4"
         variant="outline"
