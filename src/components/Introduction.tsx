@@ -15,8 +15,8 @@ const Introduction = () => {
       <Flex justifyContent="center" alignItems="center" mt={{ base: 5, md: "80px" }}>
         <Image
         boxSize={460}
-          src="/img1.png"
-          alt="Description of the image"
+          src="/img12.webp"
+          alt="BenSare photo"
           objectFit="cover"
           borderRadius={20}
         />

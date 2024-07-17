@@ -41,7 +41,7 @@ const FacilitySection2 = () => {
       >
         <Image
           src="/img3.webp"
-          alt="Description of the image"
+          alt="BenSare photo"
           objectFit="cover"
           w={{ base: "100%", md: "700px" }}
           borderRadius={40}

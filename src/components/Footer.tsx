@@ -14,7 +14,7 @@ const Footer = () => {
           py={4}
         >
           <Flex justify={{ base: "center", md: "flex-start" }} mb={{ base: 4, md: 0 }}>
-            <Image w={{ base: "150px", md: "200px" }} src="/logoBenSareHD.png" />
+            <Image w={{ base: "150px", md: "200px" }} src="/logoBenSareHD.png" alt="BenSare logo"/>
           </Flex>
           <Flex
             flexDirection="column"

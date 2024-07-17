@@ -48,6 +48,7 @@ const Page = () => {
             objectFit="cover"
             src="img3.webp"
             w={{ base: "100%", md: "600px" }}
+            alt="BenSare logo"
           />
           <Box w={{ base: "100%", md: "50%" }} h="100%" overflowY="auto">
             <FacilityAccordion />

@@ -26,7 +26,7 @@ const Hero = () => {
       <Flex w={{ base: "100%", md: "600px" }} mt={{ base: 4, md: "80px" }}>
         <Image
           src="/img23.webp"
-          alt="Description of the image"
+          alt="BenSare photo"
           objectFit="cover"
           w="600px"
         />
