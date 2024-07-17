@@ -9,7 +9,7 @@ export const metadata = {
 
 const Page = () => {
   return (
-    <Box pt="75px" pb="75px" bgColor="#fef5ee" minH="100vh" w="100%">
+    <Box pt="75px" bgColor="#fef5ee" minH="100vh" w="100%">
       <Container maxW="7xl">
         <Flex
           flexDirection="column"
