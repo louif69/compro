@@ -12,6 +12,7 @@ const Page = () => {
     <Box pt="75px" bgColor="#fef5ee" minH="100vh" w="100%">
       <Container maxW="7xl">
         <Flex
+          maxW="6xl"
           flexDirection="column"
           gap={{ base: 5, md: 10 }}
           minH={{ base: "auto", md: "100vh" }}
@@ -28,12 +29,7 @@ const Page = () => {
           >
             Tim Kami
           </Text>
-          <Flex
-            gap={10}
-            flexWrap="wrap"
-            justifyContent="center"
-            w="100%"
-          >
+          <Flex gap={10} flexWrap="wrap" justifyContent="center" w="100%">
             <TeamsCard />
             <TeamsCard />
             <TeamsCard />

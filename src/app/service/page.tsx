@@ -13,12 +13,14 @@ const Page = () => {
     <Box pt="75px" bgColor="#fef5ee" w="100%" minH="100vh">
       <Container maxW="7xl">
         <Flex
+          maxW="6xl"
           gap={{ base: 5, md: 10 }}
-          h={{ base: "auto", md: "auto" }}
+          h="auto"
           justifyContent="center"
           alignItems="center"
-          p={{ base: "4", md: "10" }}
+          p={{ base: 4, md: 10 }}
           flexDirection="column"
+          m="auto"
         >
           <Flex
             mt={{ base: "30px", md: "75px" }}
@@ -35,7 +37,7 @@ const Page = () => {
             </Text>
           </Flex>
           <Flex w={{ base: "90%", md: "500px" }} gap={4} flexDirection="column">
-            <Text textAlign="center" color="#1521a4">
+            <Text textAlign="center" color="#1521a4" >
               Temukan kehangatan dan keramahan Surakarta di BenSare Homestay.
               Terletak di jantung kota, homestay kami menawarkan perpaduan
               sempurna antara kenyamanan dan kemudahan, menjadikannya pilihan
@@ -55,7 +57,9 @@ const Page = () => {
             <FacilityAccordion />
           </Box>
         </Flex>
-        <BookingButton/>
+        <Box maxW="6xl" m="auto">
+          <BookingButton />
+        </Box>
       </Container>
     </Box>
   );

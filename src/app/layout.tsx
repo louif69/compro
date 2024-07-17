@@ -1,10 +1,12 @@
 import Footer from "@/components/Footer";
 import Navbar from "../components/Navbar";
 import { Providers } from "./providers";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Bensare Homestay Solo - Your Home Away From Home",
-  description: "Experience the charm of Surakarta with a comfortable stay at BenSare Homestay. Ideal for families, solo travelers, and business trips. Book your stay now!",
+  description:
+    "Experience the charm of Surakarta with a comfortable stay at BenSare Homestay. Ideal for families, solo travelers, and business trips. Book your stay now!",
   openGraph: {
     images: [
       {
@@ -28,7 +30,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           {children}
-          <Footer/>
+          <Footer />
         </Providers>
       </body>
     </html>
